@@ -1,0 +1,134 @@
+body, ul{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255, 192, 203, 0.288);
+}
+nav{
+    background: linear-gradient(rgba(255, 166, 0, 0.247), rgba(94, 52, 52, 0.534));
+}
+nav ul{
+    display: flex;
+    border-bottom: 1px solid white;
+}
+nav ul li{
+    padding: 10px;
+    list-style: none;
+}
+nav ul li a {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav{
+    background: #ffffff46;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(rgba(255, 166, 0, 0.247), rgba(94, 52, 52, 0.534));
+}
+.main-1-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.main-1-left{
+    flex: 1;
+    margin-right: 30px;
+    background-color: rgba(210, 105, 30, 0.616);
+
+}
+
+.main-1-left-image{
+    width: 80%;
+    margin-left: 30px;
+    display:flex ;
+    margin: 40px;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.main-1-right{
+    flex: 2;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-1-right-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.main-1-right-image{
+    height: 40vh;
+    margin: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.main-2-content{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-2-side{
+    flex: 1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    background-color: blue;
+}
+.main-2-right{
+    flex: 6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: chartreuse;
+}
+.main-2-right-content{
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: coral;
+}
+.main-2-right-bottom{
+    display: flex;
+    margin-top: 20px;
+}
+.main-2-right-bottom-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:330px;
+    height: 40vh;
+    margin: 20px;
+    background-color: blueviolet;
+}
+.main-2-right-card{
+    display: flex;
+}
+.main-2-card{
+    width: 200px;
+    height: 30vh;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
